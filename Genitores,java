@@ -1,0 +1,31 @@
+package ss;
+
+public class Genitores {
+	 private String nomeM;
+	 private String nomeP;
+	 
+	 public Genitores (String nomeM, String nomeP ) {
+	      	this.nomeM =nomeM;
+	      this.nomeP = nomeP;
+	 }
+	
+		public String getNomeM() {
+		      return nomeM;
+		     
+		  }
+		  	public void setNomeM(String nomeM) {
+		      this.nomeM = nomeM;
+		     
+		  }
+		   	public String getNomeP() {
+		      return nomeP;
+		     
+		  }
+		  	public void setNomeP(){
+		      this.nomeP = nomeP;
+		     
+		  }
+		 	public String tostring() {
+		        return  this.nomeM+ this.nomeP;
+		    }	  
+}
